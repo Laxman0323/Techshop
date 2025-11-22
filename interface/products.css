@@ -1,0 +1,285 @@
+html, body {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+  .nav1 {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 12px;
+}
+
+.icons {
+    list-style: none;
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+
+}
+
+ a {
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    padding-top: 20px;
+    text-decoration: none;
+    font-size: x-large;
+}
+.card img{
+    height: 200px;
+    width: 150px;
+}
+.card{
+    height: 202px;
+    width: 152px;
+    border: 5px solid white;
+    border-radius: 5px;
+    
+}
+.container2{
+   margin-left: 20px;
+}
+.card2 img{
+    height: 200px;
+    width: 150px;
+}
+.card2{
+    height: 202px;
+    width: 152px;
+    border: 4px solid grey;
+    border-radius: 3px;
+
+}
+.container3 img{
+    height: 850px;
+   
+}
+.container1{
+    display: flex;
+}
+.star-rating p{
+ color: red;
+}
+.star-rating{
+    display: flex;
+    gap: 10px;
+}
+.price {
+    display: flex;
+    font-size: xx-large;
+    
+    color: white;
+    gap: 15px;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+    color: grey;
+    padding-left: 20px;
+    padding-top: 15px;
+    font-size: x-large;
+}
+.card3{
+    display: flex;
+    gap: 30px;
+}
+.card3 h2{
+   color: rgb(94, 234, 94);
+}
+.btn{
+    color: white;
+    background-color: rgb(94, 234, 94);
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+}
+.nocost{
+    border: 2px solid grey;
+    border-radius: 3px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+.emi{
+    display: flex;
+    justify-content: space-between;
+}
+.container5 h1,h2,h3{
+    color: white;
+}
+.addtocart{
+    color: white;
+    background-color: red;
+    width: 90%;
+    margin-left: 30px;
+    height: 40px;
+}
+.specifications{
+    display: flex;
+    margin-left: 10%;
+    margin-top: 100px;
+    gap: 150px;
+    
+   
+}
+.btn2{
+    color: white;
+    background-color: red;
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: x-large;
+}
+.btn3{
+    color: gray;
+    background-color: rgb(46,46,46);
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: x-large;
+}
+.specs{
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1000px;
+}
+.related{
+    color: white;
+    text-align: center;
+}
+.topproductscontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 34px;
+
+
+}
+
+.container4 img {
+    height: 200px;
+    width: 250px;
+    padding-top: 20px;
+}
+
+.container4 {
+   
+    border: solid rgb(91, 89, 89);
+    width: 300px;
+}
+
+.star-rating {
+    padding-left: 10px;
+    color: red;
+    font-size: xx-large;
+    
+
+}
+.priceing {
+    display: flex;
+    font-size: xx-large;
+    margin-left: 40px;
+    color: white;
+    gap: 15px;
+}
+
+.underline{
+   margin-left: 10px;
+   margin-right: 10px;
+}
+.container4 h2,h3{
+    padding-left: 10px;
+}
+
+.button3 {
+    height: 30px;
+    width: 200px;
+    background-color: rgb(235, 62, 62);
+    border: none;
+
+    border-radius: 10px;
+
+}
+
+.button3:hover {
+    background-color: darkred;
+}
+
+.button5 {
+
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+.container4 h2,
+h3 {
+    color: white;
+}
+.lastbox{
+   margin-top: 80%;
+   padding-left: 20px;
+}
+.topproducts {
+    font-size: xx-large;
+    text-align: center;
+    color: white;
+}
+.ouradvantages{
+    list-style: none;
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+     
+  
+
+}
+.expressdelivery{
+  
+    padding-top: 35px;
+    color: red;
+
+}
+.express p{
+    padding-left: 7px;
+    color: white;
+}
+.advantage{
+    display: flex;
+    gap: 20px;
+}
+.ender{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px; 
+    border-bottom: rgb(223, 55, 55) 3px;
+    
+    
+}
+.ender h2{
+    color: white;
+    padding-left: 10px;
+}
+.ending{
+    background-color: black;
+}
+.emailbox{
+    width: 380px;
+    height: 40px;
+    font-size: medium;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.bottom2{
+    color: white;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding-right: 10px;
+}
